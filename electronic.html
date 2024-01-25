@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TipTop</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css"
+    />
+    <link rel="stylesheet" href="stylesheet/shared/general.css">
+    <link rel="stylesheet" href="stylesheet/pages/men.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+  </head>
+  <body>
+    <div id="main">
+      <div id="page1">
+        <div class="container">
+          <ul>
+            <li>
+              <a href="index.html"><img src="images/brand-logo.png" /></a>
+            </li>
+            <nav class="nav-links">
+              <li><a href="#">Store</a></li>
+              <li><a href="men.html">Men</a></li>
+              <li><a href="women.html">Women</a></li>
+              <li><a href="kids.html">Kids</a></li>
+              <li><a href="electronic.html">Electronics</a></li>
+              <li><a href="furniture.html">Furnitures</a></li>
+              <li><a href="#">Entertainment</a></li>
+            </nav>
+            <div class="menu-items">
+              <div class="cart-1">
+                <a href="checkout.html"
+                  ><span class="material-symbols-outlined cart">
+                    shopping_bag
+                  </span></a
+                >
+                <div class="cart-item js-cart-quantity">0</div>
+              </div>
+              <div class="menu">
+                <a href="#"
+                  ><span class="material-symbols-outlined menu-icons">
+                    menu
+                  </span></a
+                >
+              </div>
+            </div>
+          </ul>
+        </div>
+      <div id="page2">
+        <div class="products-grid js-products-grid">
+        </div>
+      </div>
+
+      <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+  
+  <script type="module" src="scripts/electronics.js"></script>
+  </body>
+</html>
